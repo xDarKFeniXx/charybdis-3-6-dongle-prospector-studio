@@ -13,6 +13,11 @@
     };
 };
 
+&trackball_split {
+  status = "okay";
+};
+
+/* enable the listener on central */
 &trackball_listener {
-    status = "okay";
+  status = "okay";
 };

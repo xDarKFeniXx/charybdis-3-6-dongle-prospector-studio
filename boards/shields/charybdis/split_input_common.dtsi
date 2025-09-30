@@ -1,12 +1,13 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define DEF 0
-#define MOUSE 1
-#define SYM 2
-#define NUM 3
-#define FN 4
-#define GENSHIN 5 
+#define BASE 0
+#define SYMBOL 1
+#define NUMBER 2
+#define FUNCTION 3
+#define GAME 4
+#define MOUSE 5
+#define RESET 6
 
 / {
   split_inputs {

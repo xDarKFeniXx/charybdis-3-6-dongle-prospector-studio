@@ -175,7 +175,7 @@
       display-name = "Symbol";
       bindings = <
        &bootloader  &none    &none    &kp LEFT_BRACE          &kp RIGHT_BRACE       &kp PIPE              &kp GRAVE &kp TILDE &kp LESS_THAN &kp GREATER_THAN &kp BACKSLASH        &trans
-       &trans       &none    &none    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE     &trans
+       &reset       &none    &none    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE     &trans
        &trans       &none    &none    &kp LEFT_BRACKET        &kp RIGHT_BRACKET     &kp QUESTION          &kp AMPS  &kp EQUAL &kp UNDER     &kp PERIOD       &kp DOUBLE_QUOTES    &trans
                     &none                &none                 &trans                &none     &none                                                                     
       >;
@@ -232,6 +232,7 @@
     };
   };
 };
+
 
 
 

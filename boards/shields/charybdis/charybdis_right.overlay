@@ -1,6 +1,5 @@
 #include "charybdis.dtsi"
 #include "charybdis_3610.dtsi"
-#include "split_input_common.dtsi"
 
 &default_transform {
 	col-offset = <6>;
@@ -26,6 +25,22 @@
 		;
 };
 
-&trackball_split {
-    device = <&trackball>;
+&spi0 {
+    status = "okay";
+};
+
+&trackball {
+    status = "okay";
+};
+
+/ {
+	vtrackball: virtual_input_trackball {
+		compatible = "zmk,virtual-input";
+	};
+
+	input_relay_config_trackball {
+		compatible = "zmk,split-peripheral-input-relay";
+		device = <&trackball>;
+		relay-channel = <102>;
+	};
 };

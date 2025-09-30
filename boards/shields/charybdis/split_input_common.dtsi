@@ -1,9 +1,9 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define BASE 0
-#define SYMBOL 1
-#define NUMBER 2
+#define DEF 0
+#define SYM 1
+#define NUM 2
 #define FUNCTION 3
 #define GAME 4
 #define MOUSE 5

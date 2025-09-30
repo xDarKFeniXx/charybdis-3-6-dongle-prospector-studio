@@ -16,3 +16,15 @@
 &trackball_listener {
     status = "okay";
 };
+
+/ {
+	vtrackball: virtual_input_trackball {
+		compatible = "zmk,virtual-input";
+	};
+
+	input_relay_config_trackball {
+		compatible = "zmk,split-peripheral-input-relay";
+		device = <&vtrackball>;
+		relay-channel = <102>;
+	};
+};

@@ -160,9 +160,9 @@
     Base {
       display-name = "Base";
       bindings = <
-        &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P
-        &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI
-        &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH
+        &trans       &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P            &trans
+        &trans       &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI   &trans
+        &trans       &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH         &trans
                                   &mt LGUI ESCAPE &smart_shift &lt SYMBOL SPACE          &lt NUMBER BACKSPACE &mt LS(LC(LEFT_ALT)) ENTER
       >;
     };
@@ -170,9 +170,9 @@
     Mouse {
       display-name = "Mouse";
       bindings = <
-        &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans
-        &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans 
-        &trans   &trans   &mo 3     &mo 2     &trans            &trans &trans   &trans   &trans   &trans 
+        &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
+        &trans   &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans     &trans
+        &trans   &trans   &trans   &mo 3     &mo 2     &trans            &trans &trans   &trans   &trans   &trans     &trans
                           &mkp MB1  &mkp MB2  &mkp MB3          &trans &trans
       >;
     };
@@ -180,9 +180,9 @@
     Sym {
       display-name = "Symbol";
       bindings = <
-        &none &none &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp PIPE              &kp GRAVE &kp TILDE &kp LESS_THAN &kp GREATER_THAN &kp BACKSLASH        
-        &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE    
-        &none &none &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp QUESTION          &kp AMPS  &kp EQUAL &kp UNDER     &kp PERIOD       &kp DOUBLE_QUOTES  
+        &trans &none &none &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp PIPE              &kp GRAVE &kp TILDE &kp LESS_THAN &kp GREATER_THAN &kp BACKSLASH        &trans
+        &trans &none &none &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE     &trans
+        &trans &none &none &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp QUESTION          &kp AMPS  &kp EQUAL &kp UNDER     &kp PERIOD       &kp DOUBLE_QUOTES    &trans
                     &none                &none                 &trans                &none     &none                                                                     
       >;
     };
@@ -190,9 +190,9 @@
     Num {
       display-name = "Number";
       bindings = <
-        &none    &kp N7         &kp N8          &kp N9          &none                  &none         &kp PG_UP         &kp UP            &kp PG_DN         &none          
-        &kp LGUI &hml_s LALT N4 &hml_s LSHFT N5 &hml_s LCTRL N6 &none                  &none         &hmr_s RCTRL LEFT &hmr_s RSHFT DOWN &hmr_s RALT RIGHT &kp RGUI     
-        &none    &kp N1         &kp N2          &kp N3          &kp LC(MINUS)          &kp LC(EQUAL) &kp HOME          &trans            &kp END           &none          
+        &trans   &none    &kp N7         &kp N8          &kp N9          &none                  &none         &kp PG_UP         &kp UP            &kp PG_DN         &none          &trans
+        &trans   &kp LGUI &hml_s LALT N4 &hml_s LSHFT N5 &hml_s LCTRL N6 &none                  &none         &hmr_s RCTRL LEFT &hmr_s RSHFT DOWN &hmr_s RALT RIGHT &kp RGUI       &trans
+        &trans   &none    &kp N1         &kp N2          &kp N3          &kp LC(MINUS)          &kp LC(EQUAL) &kp HOME          &trans            &kp END           &none          &trans
                                 &kp DOT         &kp N0          &kp SPACE              &trans        &none
       >;
     };
@@ -200,9 +200,9 @@
     Fun {
       display-name = "Function";
       bindings = <
-        &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none &none     &none     &none    &none             
-        &none           &kp F4 &kp F5 &kp F6 &kp F11          &none &kp LCTRL &kp LSHFT &kp LALT &kp LGUI         
-        &none           &kp F1 &kp F2 &kp F3 &kp F12          &none &none     &none     &none    &none  
+        &trans    &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none &none     &none     &none    &none      &trans       
+        &trans    &none           &kp F4 &kp F5 &kp F6 &kp F11          &none &kp LCTRL &kp LSHFT &kp LALT &kp LGUI   &trans     
+        &trans    &none           &kp F1 &kp F2 &kp F3 &kp F12          &none &none     &none     &none    &none      &trans
                                &none  &none  &none            &none &none
       >;
     };
@@ -210,9 +210,9 @@
     Button {
       display-name = "Game";
       bindings = <
-        &kp ESCAPE &kp Q &kp W    &kp E     &kp R          &none  &none    &none    &none    &none     
-        &kp LCTRL  &kp A &kp S    &kp D     &kp F          &none  &mkp MB1 &mkp MB2 &mkp MB3 &none    
-        &kp LSHIFT &kp Z &kp X    &kp C     &kp V          &kp N1 &kp N2   &kp N3   &kp N4   &kp N5
+        &trans &kp ESCAPE &kp Q &kp W    &kp E     &kp R          &none  &none    &none    &none    &none   &trans   
+        &trans &kp LCTRL  &kp A &kp S    &kp D     &kp F          &none  &mkp MB1 &mkp MB2 &mkp MB3 &none   &trans 
+        &trans &kp LSHIFT &kp Z &kp X    &kp C     &kp V          &kp N1 &kp N2   &kp N3   &kp N4   &kp N5  &trans
                          &kp LALT &kp SPACE &kp M          &kp T  &kp B                      
       >;
     };
@@ -220,11 +220,12 @@
     Reset {
       display-name = "Reset";
       bindings = <
-        &none &none &none &none &none                &none &none &none &none &none      
-        &none &none &none &none &none                &none &none &none &none &none    
-        &none &none &none &none &none                &none &none &none &none &none
+        &trans &none &none &none &none &none                &none &none &none &none &none &trans      
+        &trans &none &none &none &none &none                &none &none &none &none &none &trans   
+        &trans &none &none &none &none &none                &none &none &none &none &none &trans
                     &none &none &bootloader          &bootloader &none               
       >;
     };
   };
 };
+

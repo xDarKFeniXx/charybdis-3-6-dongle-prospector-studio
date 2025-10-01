@@ -1,6 +1,6 @@
 # Charybdis 3x6 with Dongle and ZMK STUDIO
 
-![3x6]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/1.JPG)
+![3x6](https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/1.JPG)
 
 ## Что такое донгл и зачем он нужен
 

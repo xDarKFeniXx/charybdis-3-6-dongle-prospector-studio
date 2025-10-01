@@ -20,9 +20,9 @@
 - xiao ble
 - Prospector (у которого внутри по факту тоже xiao ble)
 
-| This   | is    | a       |
+| Nice Nano v2   | Xiao    | Prospector       |
 | ------ | ----- | ------- |
-| simple | table | example |
+| ![nicenano](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/2.JPG) | ![xiao](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/3.JPG) | ![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/4.JPG) |
 
 ## Как использовать мышку? Где кнопки?
 

@@ -160,10 +160,10 @@
     Base {
       display-name = "Base";
       bindings = <
-        &trans       &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P            &trans
-        &trans       &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI   &trans
-        &trans       &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH         &trans
-                                  &mt LGUI ESCAPE &smart_shift &lt SYMBOL SPACE          &lt NUMBER BACKSPACE &mt LS(LC(LEFT_ALT)) ENTER
+        &mt LGUI ESCAPE   &kp Q        &kp W        &kp E           &kp R        &kp T                     &kp Y                &kp U                      &kp I          &kp O         &kp P            &trans
+        &kp TAB           &hml LGUI A  &hml LALT S  &hml LSHFT D    &hml LCTRL F &kp G                     &kp H                &hmr RCTRL J               &hmr RSHFT K   &hmr RALT L   &hmr LGUI SEMI   &trans
+        &kp LSHFT         &kp Z        &mt LC(X) X  &mt LC(C) C     &kp V        &mt LC(V) B               &kp N                &kp M                      &kp COMMA      &kp DOT       &kp FSLH         &trans
+                                       &kp LCTRL    &mo 2     &mt LGUI RET          &lt NUMBER SPACE       &kp BSPC
       >;
     };
 
@@ -228,5 +228,6 @@
     };
   };
 };
+
 
 

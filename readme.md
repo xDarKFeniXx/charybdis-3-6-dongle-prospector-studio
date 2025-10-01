@@ -53,7 +53,7 @@ ZMK STUDIO это графическая программа в которой в
 
 Если вы подключите клавиатуру, то увидите ее в ZMK
 
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/14.JPG)
+![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/16.JPG)
 
 После этого можете кликнуть на клавиатуру к которой хотите подключиться (их может быть  несколько если к компу подключено несколько клавиатур, в этом случае выберите ту которая вам нужна)
 

@@ -1,5 +1,7 @@
 {
   "url": "https://github.com/Bastardkb/Charybdis/",
+  "id": "charybdis",
+  "name": "Charybdis",
   "layouts": {
     "default_transform": {
       "name": "default_transform",
@@ -52,4 +54,5 @@
     },
   "sensors": []
 }
+
 

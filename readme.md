@@ -65,11 +65,11 @@ ZMK STUDIO попросит вас разлочить клавиатуру дл�
 
 Чтобы разлочить надо нажать на кнопки как на картинке. Нажать надо одновременно на две эти кнопки. 
 
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.JPG)
+![12323232](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.JPG)
 
 После этого мы увидим интерфейс ZMK STUDIO в котором можно на лету менять все значения клавиш.
 
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/17.JPG)
+![123123](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/17.JPG)
 
 ## Как перепрошить клавиатуру
 

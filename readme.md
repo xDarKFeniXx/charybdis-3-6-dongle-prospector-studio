@@ -59,17 +59,17 @@ ZMK STUDIO это графическая программа в которой в
 
 ZMK STUDIO попросит вас разлочить клавиатуру для того чтобы вносить изменения в прошивку и вам надо нажать на кнопку (или на кобмо), нажать надо туда куда вы вставили &studio_unlock.
 
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.JPG)
+![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.png)
 
 В моей текущей раскладке это настроено на комбо, которое стоит на первой и пятой кнопке. Их надо нажать одновременно и ZMK STUDIO разлочится. 
 
 Чтобы разлочить надо нажать на кнопки как на картинке. Нажать надо одновременно на две эти кнопки. 
 
-![12323232](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.JPG)
+![12323232](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/18.png)
 
 После этого мы увидим интерфейс ZMK STUDIO в котором можно на лету менять все значения клавиш.
 
-![123123](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/17.JPG)
+![123123](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/17.png)
 
 ## Как перепрошить клавиатуру
 

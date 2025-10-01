@@ -1,4 +1,4 @@
-# Reusable workflow for drawing and committing an automated keymap diagram
+# Reusable workflow for drawing and committing an automated keymap diagram 
 name: Draw ZMK keymaps
 on:
   workflow_call:

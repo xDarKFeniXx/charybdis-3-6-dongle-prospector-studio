@@ -20,7 +20,9 @@
 - xiao ble
 - Prospector (у которого внутри по факту тоже xiao ble)
 
-
+| This   | is    | a       |
+| ------ | ----- | ------- |
+| simple | table | example |
 
 ## Как использовать мышку? Где кнопки?
 

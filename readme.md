@@ -53,13 +53,11 @@ ZMK STUDIO это графическая программа в которой в
 
 Если вы подключите клавиатуру, то увидите ее в ZMK
 
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/16.JPG)
+![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/16.png)
 
 После этого можете кликнуть на клавиатуру к которой хотите подключиться (их может быть  несколько если к компу подключено несколько клавиатур, в этом случае выберите ту которая вам нужна)
 
 ZMK STUDIO попросит вас разлочить клавиатуру для того чтобы вносить изменения в прошивку и вам надо нажать на кнопку (или на кобмо), нажать надо туда куда вы вставили &studio_unlock.
-
-![Prospector](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/16.png)
 
 В моей текущей раскладке это настроено на комбо, которое стоит на первой и пятой кнопке. Их надо нажать одновременно и ZMK STUDIO разлочится. 
 

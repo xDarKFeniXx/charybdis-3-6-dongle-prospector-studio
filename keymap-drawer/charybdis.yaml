@@ -16,12 +16,12 @@ layers:
   - TAB
   - A
   - S
-  - D
+  - {t: D, h: LSHFT}
   - F
   - G
   - H
   - J
-  - K
+  - {t: K, h: RSHFT}
   - L
   - ;
   - ''''
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Caret
+  - Arrows
   - Function
   - Number
   - Symbol
@@ -87,7 +87,7 @@ layers:
   Symbol:
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - '@'
   - '{'
   - '}'
   - '|'
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - $
   - (
   - )
   - ':'
@@ -111,7 +111,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - '%'
   - '['
   - ']'
   - '?'
@@ -140,7 +140,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
+  - ''
   - '4'
   - '5'
   - '6'
@@ -149,7 +149,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - RGUI
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -188,10 +188,10 @@ layers:
   - F6
   - F11
   - ''
-  - LCTRL
+  - RGUI
   - LSHFT
-  - LALT
-  - LGUI
+  - RALT
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -210,48 +210,48 @@ layers:
   - ''
   - ''
   - ''
-  Caret:
+  Arrows:
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Caret, type: held}
-  - Function
-  - Number
-  - Symbol
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   Reset:
   - {t: ▽, type: trans}
   - ''
@@ -303,9 +303,13 @@ combos:
   k: BOOT LDR
 - p: [7, 8]
   k: {t: Base, h: toggle}
+- p: [3, 4]
+  k: {t: Base, h: toggle}
 - p: [27, 28]
   k: {t: Function, h: sticky}
-- p: [5, 9]
-  k: {t: Caret, h: toggle}
+- p: [4, 5]
+  k: {t: Arrows, h: toggle}
+- p: [6, 7]
+  k: {t: Arrows, h: toggle}
 - p: [0, 4]
   k: ZMK Studio

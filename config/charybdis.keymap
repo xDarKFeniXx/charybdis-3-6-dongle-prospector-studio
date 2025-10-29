@@ -131,7 +131,7 @@
     };
     combo_caret {
       key-positions = <5 9>;
-      bindings = <&to CARET>;
+      bindings = <&to CARET_LAYER>;
     };
     // combo_esc {
     //   key-positions = <1 2>;

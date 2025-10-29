@@ -16,12 +16,12 @@ layers:
   - TAB
   - A
   - S
-  - {t: D, h: LSHFT}
+  - D
   - F
   - G
   - H
   - J
-  - {t: K, h: RSHFT}
+  - K
   - L
   - ;
   - ''''
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Arrows
+  - {t: ▽, type: trans}
   - Function
   - Number
   - Symbol
@@ -236,7 +236,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''

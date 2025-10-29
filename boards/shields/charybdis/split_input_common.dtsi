@@ -7,7 +7,6 @@
 #define NUM 3
 #define FN 4
 #define GENSHIN 5 
-#define CARETER 6 
 
 / {
   split_inputs {
@@ -40,10 +39,6 @@
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
 
-    caret {
-      layers = <CARETER>;
-      input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_keys MOVE_UP MOVE_DOWN MOVE_LEFT MOVE_RIGHT>;
-    };
 
   auto_mouse_layer: auto_mouse_layer {
     compatible = "zmk,input-processor-temp-layer";

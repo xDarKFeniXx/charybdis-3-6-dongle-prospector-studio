@@ -7,7 +7,7 @@
 #define NUM 3
 #define FN 4
 #define GENSHIN 5 
-#define CARET 6  // <- новый слой для каретки
+#define CARET 6 
 
 / {
   split_inputs {
@@ -39,7 +39,7 @@
       layers = <DEF MOUSE>;
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
-
+    
     caret {
       layers = <CARET>;
       input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_keys MOVE_UP MOVE_DOWN MOVE_LEFT MOVE_RIGHT>;

@@ -6,7 +6,6 @@
 #define SYM 2
 #define NUM 3
 #define FN 4
-#define CARET_LAYER 5 
 
 / {
   split_inputs {
@@ -32,11 +31,6 @@
     scroll {
       layers = <FN>;
       input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_scroll_mapper>;
-    };
-
-    caret_layer {
-      layers = <CARET_LAYER>;
-      input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_keys UP DOWN LEFT RIGHT>;
     };
 
     move {

@@ -68,8 +68,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Caret
+  - Function
   - Number
   - Symbol
   - {t: ▽, type: trans}
@@ -210,48 +210,48 @@ layers:
   - ''
   - ''
   - ''
-  Game:
-  - ESCAPE
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  Caret:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LSHFT
   - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
   - {t: ▽, type: trans}
-  - LALT
-  - SPACE
-  - M
-  - T
-  - B
+  - {t: Caret, type: held}
+  - Function
+  - Number
+  - Symbol
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Reset:
   - {t: ▽, type: trans}
   - ''
@@ -306,6 +306,6 @@ combos:
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
-  k: {t: Game, h: toggle}
+  k: {t: Caret, h: toggle}
 - p: [0, 4]
   k: ZMK Studio

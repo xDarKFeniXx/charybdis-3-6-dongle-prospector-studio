@@ -36,7 +36,7 @@
 
     caret_layer {
       layers = <CARET_LAYER>;
-      input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_keys MOVE_UP MOVE_DOWN MOVE_LEFT MOVE_RIGHT>;
+      input-processors = <&zip_xy_scaler 1 6>, <&zip_xy_to_keys UP DOWN LEFT RIGHT>;
     };
 
     move {

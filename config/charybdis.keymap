@@ -134,11 +134,11 @@
       bindings = <&sl FUNCTION>;
     };
     combo_left_hand_arrows {
-      key-positions = <4 5>;
+      key-positions = <1 5>;
       bindings = <&to LHARROWS>;
     };
     combo_right_hand_arrows {
-      key-positions = <6 7>;
+      key-positions = <6 10>;
       bindings = <&to LHARROWS>;
     };
 
@@ -160,7 +160,7 @@
         &lt FUNCTION ESCAPE   &kp Q   &kp W  &kp E         &kp R  &kp T               &kp Y                &kp U      &kp I         &kp O     &kp P      &kp LEFT_BRACKET
         &kp TAB               &kp A   &kp S  &kp D         &kp F  &kp G               &kp H                &kp J      &kp K         &kp L     &kp SEMI   &kp SINGLE_QUOTE
         &kp LSHFT             &kp Z   &kp X  &kp C         &kp V  &kp B               &kp N                &kp M      &kp COMMA     &kp DOT   &kp FSLH   &kp RSHFT
-                    &mt LCTRL LC(SPACE)    &lt 2 SPACE     &mt LGUI RET         &lt NUMBER SPACE     &kp BSPC
+                    &kp LCTRL    &lt 2 SPACE     &mt LGUI RET         &lt NUMBER SPACE     &kp BSPC
       >;
     };
     Mouse {
@@ -176,19 +176,19 @@
     Sym {
       display-name = "Symbol";
       bindings = <
-        &trans &none &kp AT_SIGN  &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp PIPE              &kp GRAVE &kp TILDE &kp LESS_THAN &kp GREATER_THAN &kp BACKSLASH        &trans
-        &trans &none &kp DOLLAR   &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE     &trans
-        &trans &none &kp PERCENT  &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp QUESTION          &kp AMPS  &kp EQUAL &kp UNDER     &kp PERIOD       &kp DOUBLE_QUOTES    &trans
+        &trans &kp HASH           &kp AT_SIGN  &kp LEFT_BRACE       &kp RIGHT_BRACE       &kp PIPE              &kp GRAVE &kp TILDE &kp LESS_THAN &kp GREATER_THAN &kp BACKSLASH        &trans
+        &trans &kp EXCLAMATION    &kp DOLLAR   &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp COLON             &kp PLUS  &kp MINUS &kp SLASH     &kp ASTRK        &kp SINGLE_QUOTE     &trans
+        &trans &none              &kp PERCENT  &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp QUESTION          &kp AMPS  &kp EQUAL &kp UNDER     &kp PERIOD       &kp DOUBLE_QUOTES    &trans
                     &none                &none                 &trans                &none     &none                                                                     
       >;
     };
-
+ 
     Num {
       display-name = "Number";
       bindings = <
-        &trans   &none      &kp N7  &kp N8  &kp N9  &none                  &kp RGUI        &kp PG_UP  &kp UP     &kp PG_DN  &none     &trans
-        &trans   &none      &kp N4  &kp N5  &kp N6  &none                  &kp END         &kp LEFT   &kp DOWN   &kp RIGHT  &none     &trans
-        &trans   &none      &kp N1  &kp N2  &kp N3  &kp LC(MINUS)          &kp LC(EQUAL)   &kp RGUI   &kp RSHFT  &kp RALT   &kp RCTRL &trans
+        &trans   &none      &kp N7  &kp N8  &kp N9  &kp LC(MINUS)          &kp LC(EQUAL)   &kp C_AC_BACK  &kp UP     &kp C_AC_FORWARD  &none       &trans
+        &trans   &none      &kp N4  &kp N5  &kp N6  &none                  &kp LA(ENTER)   &kp LEFT       &kp DOWN   &kp RIGHT         &kp RALT    &trans
+        &trans   &none      &kp N1  &kp N2  &kp N3  &none                  &kp LA(SPACE)   &kp RGUI       &kp RSHFT  &kp RALT          &kp RCTRL   &trans
                                 &kp DOT         &kp N0          &kp SPACE              &trans        &none
       >;
     };
@@ -196,9 +196,9 @@
     Fun {
       display-name = "Function";
       bindings = <
-        &trans    &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none &none     &none     &none    &none       &trans        
-        &trans    &none           &kp F4 &kp F5 &kp F6 &kp F11          &none &kp RGUI  &kp LSHFT &kp RALT &kp RCTRL   &trans     
-        &trans    &none           &kp F1 &kp F2 &kp F3 &kp F12          &none &none     &none     &none    &none       &trans
+        &trans    &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none                     &none     &kp LC(2)    &kp LC(3)  &none       &trans        
+        &trans    &none           &kp F4 &kp F5 &kp F6 &kp F11          &kp LC(LA(LG(LS(ENTER)))) &kp RGUI  &kp LSHFT    &kp RALT   &kp RCTRL   &trans     
+        &trans    &none           &kp F1 &kp F2 &kp F3 &kp F12          &kp PRINTSCREEN           &none     &none        &none      &none       &trans
                                &none  &none  &none            &none &none
       >;
     };
@@ -206,9 +206,9 @@
     LHArrows {
       display-name = "Arrows";
       bindings = <
-        &trans &none &none &none &none &none                &none &none &none &none &none &trans      
-        &trans &none &none &none &none &none                &none &none &none &none &none &trans   
-        &trans &none &none &none &none &none                &none &none &none &none &none &trans
+        &trans &none     &none     &kp UP     &none     &none                &none  &none     &kp UP     &none     &none        &trans      
+        &trans &kp LALT  &kp LEFT  &kp DOWN   &kp RIGHT &none                &none  &kp LEFT  &kp DOWN   &kp RIGHT &kp RALT     &trans   
+        &trans &kp LCTRL &kp LALT  &kp LSHFT  &kp LGUI  &none                &none  &kp RGUI  &kp RSHFT  &kp RALT  &kp RCTRL    &trans
                     &none &none &none          &none &none                
       >;
     };

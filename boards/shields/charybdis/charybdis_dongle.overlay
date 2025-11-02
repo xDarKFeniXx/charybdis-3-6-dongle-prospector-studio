@@ -17,10 +17,3 @@
     status = "okay";
 };
 
-&peripheral_battery_status_left {
-    peripheral = <1>;
-};
-
-&peripheral_battery_status_right {
-    peripheral = <0>;
-};

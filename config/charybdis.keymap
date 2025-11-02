@@ -166,7 +166,7 @@
     Mouse {  
       display-name = "Mouse";
       bindings = <
-        &trans                    &trans             &trans           &trans           &trans             &trans                &trans                &kp LG(C)       &LG(V)              &trans             &trans               &trans 
+        &trans                    &trans             &trans           &trans           &trans             &trans                &trans                &kp LG(C)       &kp LG(V)           &trans             &trans               &trans 
         &trans                    &kp LCTRL          &kp LALT         &kp LSHFT        &kp LGUI           &trans                &trans                &mkp MB1        &mkp MB2            &mkp MB3           &trans               &trans
         &trans                    &trans             &mo 4            &mo 3            &mo 2              &trans                &trans                &trans          &trans              &trans             &trans               &trans
                                                                       &mkp MB1          &mkp MB2           &mkp MB3              &trans                &trans 
@@ -206,9 +206,9 @@
     ARROWS {
       display-name = "Arrows";
       bindings = <
-        &trans &none     &kp LG(C)    &kp UP     &LG(V)      &none                &none  &kp LG(C)     &kp UP      &LG(V)     &none        &trans      
-        &trans &kp LALT  &kp LEFT     &kp DOWN   &kp RIGHT   &none                &none  &kp LEFT      &kp DOWN    &kp RIGHT  &kp RALT     &trans   
-        &trans &kp LCTRL &kp LALT     &kp LSHFT  &kp LGUI    &none                &none  &kp RGUI      &kp RSHFT   &kp RALT   &kp RCTRL    &trans
+        &trans &none     &kp LG(C)    &kp UP     &kp LG(V)      &none                &none  &kp LG(C)     &kp UP      &kp LG(V)     &none        &trans      
+        &trans &kp LALT  &kp LEFT     &kp DOWN   &kp RIGHT      &none                &none  &kp LEFT      &kp DOWN    &kp RIGHT  &kp RALT     &trans   
+        &trans &kp LCTRL &kp LALT     &kp LSHFT  &kp LGUI       &none                &none  &kp RGUI      &kp RSHFT   &kp RALT   &kp RCTRL    &trans
                     &kp BSPC &kp SPACE &kp RET          &kp SPACE &kp BSPC                
       >;
     };

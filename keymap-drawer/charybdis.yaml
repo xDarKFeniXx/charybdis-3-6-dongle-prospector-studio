@@ -14,19 +14,19 @@ layers:
   - P
   - '['
   - TAB
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LGUI}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RGUI}
+  - {t: K, h: RSHFT}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCTRL}
   - ''''
   - LSHFT
-  - Z
+  - {t: Z, h: Mouse}
   - X
   - C
   - V
@@ -50,16 +50,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+ C
+  - Gui+ V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
+  - LCTRL
   - LALT
   - LSHFT
-  - LCTRL
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Function
   - Number
   - Symbol
@@ -134,9 +134,9 @@ layers:
   - '9'
   - Ctl+ -
   - Ctl+ =
-  - AC BACK
+  - HOME
   - UP
-  - AC FORWARD
+  - END
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - F2
   - F3
   - DEV TOOLS
-  - PRINT SCREEN
+  - Ctl+Gui+Sft+ 4
   - ''
   - ''
   - ''
@@ -213,14 +213,14 @@ layers:
   Arrows:
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - Gui+ C
   - UP
+  - Gui+ V
   - ''
   - ''
-  - ''
-  - ''
+  - Gui+ C
   - UP
-  - ''
+  - Gui+ V
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,11 +247,11 @@ layers:
   - RALT
   - RCTRL
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BSPC
+  - SPACE
+  - RET
+  - SPACE
+  - BSPC
   Reset:
   - {t: ▽, type: trans}
   - ''

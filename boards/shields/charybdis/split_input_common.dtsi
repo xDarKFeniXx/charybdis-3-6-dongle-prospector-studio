@@ -33,16 +33,16 @@
       input-processors = <&zip_xy_scaler 1 20>, <&zip_xy_to_scroll_mapper>;
     };
 
-    move {
-      layers = <DEF MOUSE>;
-      input-processors = <&auto_mouse_layer MOUSE 1000>;
-    };
+    //move {
+      // layers = <DEF MOUSE>;
+      //input-processors = <&auto_mouse_layer MOUSE 1000>;
+    //};
   };
 
-  auto_mouse_layer: auto_mouse_layer {
-    compatible = "zmk,input-processor-temp-layer";
-    #input-processor-cells = <2>;
-    require-prior-idle-ms = <500>;
-    #excluded-positions = <30 31 32 16 17 18 10 11 12 13 22 23>;
-  };
+ // auto_mouse_layer: auto_mouse_layer {
+  //  compatible = "zmk,input-processor-temp-layer";
+   // #input-processor-cells = <2>;
+   // require-prior-idle-ms = <500>;
+   // #excluded-positions = <30 31 32 16 17 18 10 11 12 13 22 23>;
+  //};
 };

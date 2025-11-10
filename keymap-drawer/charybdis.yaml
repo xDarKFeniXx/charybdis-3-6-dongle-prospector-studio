@@ -74,10 +74,10 @@ layers:
   - Symbol
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGUI
+  - RSHFT
+  - RALT
+  - RCTRL
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
@@ -128,7 +128,7 @@ layers:
   - ''
   Number:
   - {t: ▽, type: trans}
-  - ''
+  - RGUI
   - '7'
   - '8'
   - '9'
@@ -137,14 +137,14 @@ layers:
   - HOME
   - UP
   - END
-  - ''
+  - RGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - RALT
   - '4'
   - '5'
   - '6'
-  - ''
+  - Gui+ /
   - Alt+ ENTER
   - LEFT
   - DOWN
@@ -152,7 +152,7 @@ layers:
   - RALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - RCTRL
   - '1'
   - '2'
   - '3'

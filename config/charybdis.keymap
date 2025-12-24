@@ -141,7 +141,10 @@
       key-positions = <6 10>;
       bindings = <&to ARROWS>;
     };
-
+    combo_numbers_left {
+      key-positions = <0 5>;
+      bindings = <&to NUMBER>;
+    };
     combo_unlock {
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
@@ -196,9 +199,9 @@
     Fun {
       display-name = "Function";
       bindings = <
-        &trans    &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none                     &none     &kp LC(2)    &kp LC(3)  &none       &trans        
-        &trans    &none           &kp F4 &kp F5 &kp F6 &kp F11          &kp LC(LA(LG(LS(ENTER)))) &kp RGUI  &kp LSHFT    &kp RALT   &kp RCTRL   &trans     
-        &trans    &none           &kp F1 &kp F2 &kp F3 &kp F12          &kp LC(LG(LS(4)))         &none     &none        &none      &none       &trans
+        &trans    &kp LC(LA(DEL)) &kp F7 &kp F8 &kp F9 &kp F10          &none                     &kp LC(2)        &kp LC(3)    &kp LC(4)  &none       &trans        
+        &trans    &none           &kp F4 &kp F5 &kp F6 &kp F11          &kp LC(LA(LG(LS(ENTER)))) &kp RGUI         &kp LSHFT    &kp RALT   &kp RCTRL   &trans     
+        &trans    &none           &kp F1 &kp F2 &kp F3 &kp F12          &kp LC(LG(LS(4)))         &kp RGUI(COMMA)  &none        &none      &none       &trans
                                &none  &none  &none            &none &none
       >;
     };

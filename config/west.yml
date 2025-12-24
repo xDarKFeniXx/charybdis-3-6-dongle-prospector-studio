@@ -15,11 +15,11 @@ manifest:
 
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: main
+      revision: b7e61de08f5e2848c062d771c6ac395844ea51d9
 
     - name: prospector-zmk-module
       remote: carrefinho
-      revision: main
+      revision: 0639aa9fd107e2e19a7c710aeab55b683eb1f757
       
   self:
     path: config

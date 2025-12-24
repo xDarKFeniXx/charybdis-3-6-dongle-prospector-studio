@@ -200,7 +200,7 @@ layers:
   - F3
   - DEV TOOLS
   - Ctl+Gui+Sft+ 4
-  - ''
+  - Gui+ ,
   - ''
   - ''
   - ''
@@ -309,6 +309,8 @@ combos:
   k: {t: Function, h: sticky}
 - p: [1, 5]
   k: {t: Arrows, h: toggle}
+- p: [0, 5]
+  k: {t: Number, h: toggle}
 - p: [6, 10]
   k: {t: Arrows, h: toggle}
 - p: [0, 4]

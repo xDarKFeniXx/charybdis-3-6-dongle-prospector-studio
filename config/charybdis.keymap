@@ -101,6 +101,26 @@
       bindings = <&sk LSHIFT>, <&caps_word>;
       mods = <(MOD_LSFT)>;
     };
+
+    paste_with_numbers: paste_with_numbers {
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      wait-ms = <10>;
+      tap-ms = <10>;
+      bindings
+        = <&macro_press &kp LSHFT &kp LGUI>
+        , <&macro_tap &kp V>
+        , <&macro_release &kp LSHFT &kp LGUI>
+        , <&macro_tap &sl NUMBER>
+        ;
+    };
+
+    v_morph: v_morph {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp V>, <&paste_with_numbers>;
+      mods = <(MOD_LSFT|MOD_LGUI)>;
+    };
   };
 
   combos {
@@ -127,7 +147,7 @@
     };
     combo_normal_left {
       key-positions = <3 4>;
-      bindings = <&to BASE>;
+      bindings = <&to k>;
     };
     combo_fn {
       key-positions = <27 28>;
@@ -162,8 +182,8 @@
       bindings = <
         &lt FUNCTION ESCAPE       &kp Q              &kp W            &kp E             &kp R             &kp T                &kp Y                 &kp U            &kp I               &kp O             &kp P                &kp LEFT_BRACKET
         &kp TAB                   &hml LCTRL A       &hml LALT S      &hml LSHFT D      &hml LGUI F       &kp G                &kp H                 &hmr RGUI J      &hmr RSHFT K        &hmr RALT L       &hmr RCTRL SEMI      &kp SINGLE_QUOTE
-        &kp LSHFT                 &lt MOUSE Z        &kp X            &kp C             &kp V             &kp B                &kp N                 &kp M            &kp COMMA           &kp DOT           &kp FSLH             &kp RSHFT
-                                                                      &kp LCTRL         &lt 2 SPACE       &mt LGUI RET         &lt NUMBER SPACE      &kp BSPC
+        &kp LSHFT                 &lt MOUSE Z        &kp X            &kp C             &v_morph          &kp B                &kp N                 &kp M            &kp COMMA           &kp DOT           &kp FSLH             &kp RSHFT
+                                                                      &mt LCTRL RET         &lt 2 SPACE       &kp LGUI         &lt NUMBER SPACE      &kp BSPC
       >;
     };
     Mouse {  

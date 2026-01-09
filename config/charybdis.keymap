@@ -147,7 +147,7 @@
     };
     combo_normal_left {
       key-positions = <3 4>;
-      bindings = <&to k>;
+      bindings = <&to BASE>;
     };
     combo_fn {
       key-positions = <27 28>;

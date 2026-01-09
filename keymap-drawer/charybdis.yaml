@@ -29,7 +29,7 @@ layers:
   - {t: Z, h: Mouse}
   - X
   - C
-  - V
+  - {t: V, s: '&paste_with_numbers'}
   - B
   - N
   - M
@@ -37,9 +37,9 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
+  - {t: RET, h: LCTRL}
   - {t: SPACE, h: Symbol}
-  - {t: RET, h: LGUI}
+  - LGUI
   - {t: SPACE, h: Number}
   - BSPC
   Mouse:
